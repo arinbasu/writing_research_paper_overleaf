@@ -1,0 +1,34 @@
+Writing a research paper or a term paper needs a few things to think about. 
+
+We will use bullet point and numbered lists to state our points:
+The following is a numbered list:
+
+\begin{enumerate}
+    \item First, you will need to find a topic to write.
+    \item Second, you will need a structure
+    \item Third, you will write an outline
+    \item Fourth, you will need plenty of time to revise and edit
+\end{enumerate}
+
+The following is an example of a bullet-point list for developing a critical appraisal of a topic
+
+\begin{itemize}
+    \item We will need to identify question and express it in PICO format
+    \item We will then search scholarly databases with key search terms
+    \item We will then identify as many relevant papers as we can based on our inclusion and exclusion criteria
+    \item We will use the GRADE criteria to assess the body of evidence based on the outcomes we are interested in
+    \item We will synthesise the findings of the studies using principles of meta-analysis to arrive at a summary estimate
+\end{itemize}
+
+What has happened? In each case, as we decided that we want a list (enumerated list or itemised list), we started and ended with a `begin' and `end' words with the identity of the list in curly brackets. This `identity of the list' is referred to as an `environment'. Here is a list of latex environments:
+
+\url{https://latex.wikia.org/wiki/List_of_LaTeX_environments}
+
+The above was an example of adding an URL that became a clickable link when you view it in the PDF. This is an example of a `command' within the document that you would use. The command in this case is `\\url'. Note that in order to use this command, we need to include in our `main.tex' another command called \\usepackage{hyperref}; if we did not do that, then we would not be able to use url command or the url command would throw an error. Therefore, keep these in mind:
+
+\begin{itemize}
+    \item Write in plain text
+    \item Identify what packages you will use in your paper
+    \item List them in the main.tex document
+    \item Figure out what environments you will use in your paper
+\end{itemize}{}
